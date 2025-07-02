@@ -23,3 +23,5 @@ notifications-panel shows recent notifications in a dropdown or sidebar style. U
 
 ## Author
 Andrew Hueston
+## Live Demo 
+[https://andhues.github.io/checkout-redesign/](https://andhues.github.io/checkout-redesign/)
