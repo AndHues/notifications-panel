@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Notifications Panel</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.2/dist/tailwind.min.css"
+    rel="stylesheet"
+  >
+</head>
+<body class="bg-gray-100 p-4 flex justify-center">
+  <aside role="region" aria-label="Notifications"
+         class="w-full max-w-sm bg-white rounded-lg shadow p-4">
+    <h1 class="text-xl font-semibold mb-4">Notifications</h1>
+    <ul role="list" class="space-y-3">
+      <!-- Unread -->
+      <li role="listitem"
+          class="flex items-start space-x-3 p-3 bg-gray-50 rounded">
+        <span role="img" aria-label="New follower" class="text-2xl">
+          👤
+        </span>
+        <div>
+          <p class="text-sm">
+            <strong>Alice</strong> started following you.
+          </p>
+          <time datetime="2025-07-01T11:00"
+                class="text-xs text-gray-500">
+            Just now
+          </time>
+        </div>
+      </li>
+      <!-- Read -->
+      <li role="listitem"
+          class="flex items-start space-x-3 p-3 rounded hover:bg-gray-50">
+        <span role="img" aria-label="Comment" class="text-2xl">
+          💬
+        </span>
+        <div>
+          <p class="text-sm">
+            <strong>Bob</strong> commented on your post.
+          </p>
+          <time datetime="2025-07-01T10:45"
+                class="text-xs text-gray-500">
+            15 minutes ago
+          </time>
+        </div>
+      </li>
+      <!-- Unread -->
+      <li role="listitem"
+          class="flex items-start space-x-3 p-3 bg-gray-50 rounded">
+        <span role="img" aria-label="Mention" class="text-2xl">
+          🔔
+        </span>
+        <div>
+          <p class="text-sm">
+            <strong>Carol</strong> mentioned you in a comment.
+          </p>
+          <time datetime="2025-07-01T10:00"
+                class="text-xs text-gray-500">
+            1 hour ago
+          </time>
+        </div>
+      </li>
+    </ul>
+  </aside>
+</body>
+</html>
